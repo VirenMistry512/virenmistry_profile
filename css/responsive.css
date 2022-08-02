@@ -1,0 +1,94 @@
+/*
+   Responsive CSS
+*/
+
+@media (max-width: 1024px) {}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px){
+    .sm-padding{ padding: 15px; }
+    .section-heading h2{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .header-section .navbar-brand{ padding: 17px 0; }
+    .js .menu-wrap { display:none!important; }
+    .js .slicknav_menu { display:block; }
+    .header-right .cart-icon{
+        margin-right: 45px;
+        padding: 0;
+    }
+    .hero-section { height: 560px; }
+    .about-men{ right: -130px; }
+    .skill-content{ padding-left: 0; }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    h2{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    h3{ font-size: 16px; }
+    p br{ display: none; }
+    .padding{ padding: 60px 0; }
+    .xs-padding{ padding: 15px; }
+    .contact-form .form-group .col-sm-6:first-child{ margin-bottom: 15px; }
+    .contact-info h2{ line-height: 28px; }
+    blockquote p{ line-height: 32px; }
+    .hero-section{ height: 400px; }
+    .cta-wrap .text-right,
+    .cta-content{ text-align: center!important; }
+    .cta-content h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .owl-controls .owl-dots{ bottom: -25px; }
+    .experience-date h4 { margin-bottom: 30px; }
+    .contact-items{ padding: 30px 15px 0; }
+    .experience-content,
+    .experience-date h4,
+    .footer-wrap,
+    .footer-social{ text-align: center; }
+    .footer-social li a{ margin: 0 10px; }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 580px CSS ---- */
+@media all and (max-width: 580px) {
+    .service-section .section-heading.text-center{ text-align: left!important; }
+}
+/* ---- End of max-width 580px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
