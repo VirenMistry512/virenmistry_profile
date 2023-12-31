@@ -1,0 +1,141 @@
+{
+    "name":"Viren Mistry",
+    "linked_in":"https://www.linkedin.com/in/viren-mistry-880991165/",
+    "twitter":"https://twitter.com/VeerMistry512",
+    "facebook":"https://www.facebook.com/viren.mistry.31924",
+    "instagram":"https://www.instagram.com/veer.mistry/",
+    "contact":"+917276469512",
+    "email_id":"virenmistry512@gmail.com",
+    "cv_link":"https://drive.google.com/drive/folders/19Dy4WYU-jQ4rr6UXPFlStRCGQtW7Pti4?usp=sharing",
+    "skills":[
+        {
+            "title":"Python, Scrapy, Selenium, NLP, Pillow, Tkinter, Flask, Django",
+            "score":"95%"
+        },
+        {
+            "title":"NodeJS, Expressjs, Javascript & JQuery",
+            "score":"90%"
+        },
+        {
+            "title":"PHP, Laravel, Lumen, CodeIgniter",
+            "score":"90%"
+        },
+        {
+            "title":"Wordpress",
+            "score":"60%"
+        },
+        {
+            "title":"Java, JSP, Spring Boot",
+            "score":"55%"
+        },
+        {
+            "title":"ASP.NET, C#",
+            "score":"55%"
+        }
+    ],
+    "education":[
+        {
+            "course":"B.Sc.IT",
+            "university":"Mumbai University",
+            "completion_year":"2020-11-01",
+            "score":"Scored 8.43 CGPI"
+        },
+        {
+            "course":"MCA",
+            "university":"Manipal University Jaipur",
+            "completion_year":"2023-11-26",
+            "score":"Scored Sem 1 - 8.9 SGPI | Sem 2 - 8.82 SGPI <br/>Scored Sem 3 - 8.74 SGPI | Currently Sem 4 in Progress"
+        }
+    ],
+    "services":[
+        {
+            "service":"Web Development",
+            "icon_class":"icon-browser"
+        },
+        {
+            "service":"Automation System",
+            "icon_class":"icon-gears"
+        },
+        {
+            "service":"LMS and Dashboard System",
+            "icon_class":"icon-linegraph"
+        },
+        {
+            "service":"UI/UX DESIGN",
+            "icon_class":"icon-paintbrush"
+        }
+    ],
+    "experience":[
+        {
+            "company":"Ashwa Enterprises",
+            "description":"The best startup organization Ashwa Enterprises has given me the experience of working with e-Government projects and hands-on new technologies.",
+            "role":"Backend Developer",
+            "from":"2022-12-09",
+            "to":null
+        },
+        {
+            "company":"EmergingFive",
+            "description":"My best experience with EmergingFive has been under the guidance of inspiring and motivating leaders who have enriched my experience in a more planned and structured path to my professionalism",
+            "role":"Backend Developer",
+            "from":"2021-03-01",
+            "to":"2022-12-04"
+        },
+        {
+            "company":"DigitalWindy",
+            "description":"The best startup organization DigitalWindy where I got the best experience, and moulded me as a fresher in a perfect way and made me a habit of adopting every new technology.",
+            "role":"Fullstack Developer",
+            "from":"2020-11-01",
+            "to":"2021-02-28"
+        }
+    ],
+    "work_portfolio":[
+        {
+            "project":"MSLMS Litigation Management System",
+            "company":"Ashhwa Enterprises",
+            "year":"2023",
+            "technology":"Laravel, Python & Nodejs"
+        },
+        {
+            "project":"VVCMC Case Tracking System",
+            "company":"Ashhwa Enterprises",
+            "year":"2023",
+            "technology":"Laravel, Python & Nodejs"
+        },
+        {
+            "project":"Maharashtra Maitri SWS",
+            "company":"Ashhwa Enterprises",
+            "year":"2024",
+            "technology":"Laravel"
+        },
+        {
+            "project":"News Scraping",
+            "company":"EmergingFive",
+            "year":"2022",
+            "technology":"Python Scrapy Framework"
+        },
+        {
+            "project":"BARC India Website",
+            "company":"Emergingfive",
+            "year":"2022",
+            "technology":"PHP Custom Framework Web Application"
+        },
+        {
+            "project":"Udayancare Advanced Dashboard",
+            "company":"Emergingfive",
+            "year":"2021",
+            "technology":"PHP Web Application"
+        },
+        {
+            "project":"Revenue Management System",
+            "company":"DigitalWindy",
+            "year":"2021",
+            "technology":"Java JSP Web Application"
+        },
+        {
+            "project":"POS System",
+            "company":"DigitalWindy",
+            "year":"2020",
+            "technology":"PHP Web Application"
+        }
+    ]
+}
