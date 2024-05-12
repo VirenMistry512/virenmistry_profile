@@ -1,35 +1,67 @@
 $(document).ready(function(){
    
+    // function calculateTotalExperience(experienceArray) {
+    //     let totalMonths = 0;
+
+    //     for (let i = 0; i < experienceArray.length; i++) {
+    //         const job = experienceArray[i];
+
+    //         const fromDate = new Date(job.from);
+    //         const toDate = job.to ? new Date(job.to) : new Date();
+
+    //         const diffInMilliseconds = toDate - fromDate;
+    //         const diffInMonths = diffInMilliseconds / (1000 * 60 * 60 * 24 * 30.44); // Average month duration
+
+    //         totalMonths += Math.round(diffInMonths);
+    //     }
+
+    //     const totalYears = Math.round(totalMonths / 12);
+    //     const remainingMonths = totalMonths % 12;
+
+    //     if (totalYears === 0 && remainingMonths === 0) {
+    //         return 'Less than a month';
+    //     } else if (totalYears === 1 && remainingMonths === 0) {
+    //         return '1 Year';
+    //     } else if (totalYears === 0 && remainingMonths === 1) {
+    //         return '1 Month';
+    //     } else if (totalYears === 1 && remainingMonths === 1) {
+    //         return '1 Year 1 Month';
+    //     } else if (totalYears > 0 && remainingMonths === 0) {
+    //         return `${totalYears} Years`;
+    //     } else {
+    //         return `${totalYears} Years ${remainingMonths} Months`;
+    //     }
+    // }
+
     function calculateTotalExperience(experienceArray) {
         let totalMonths = 0;
-
+    
         for (let i = 0; i < experienceArray.length; i++) {
             const job = experienceArray[i];
-
+    
             const fromDate = new Date(job.from);
             const toDate = job.to ? new Date(job.to) : new Date();
-
+    
             const diffInMilliseconds = toDate - fromDate;
             const diffInMonths = diffInMilliseconds / (1000 * 60 * 60 * 24 * 30.44); // Average month duration
-
-            totalMonths += Math.round(diffInMonths);
+    
+            totalMonths += diffInMonths;
         }
-
-        const totalYears = Math.round(totalMonths / 12);
-        const remainingMonths = totalMonths % 12;
-
+    
+        const totalYears = Math.floor(totalMonths / 12);
+        const remainingMonths = Math.round(totalMonths % 12);
+    
         if (totalYears === 0 && remainingMonths === 0) {
             return 'Less than a month';
-        } else if (totalYears === 1 && remainingMonths === 0) {
-            return '1 Year';
-        } else if (totalYears === 0 && remainingMonths === 1) {
-            return '1 Month';
-        } else if (totalYears === 1 && remainingMonths === 1) {
-            return '1 Year 1 Month';
-        } else if (totalYears > 0 && remainingMonths === 0) {
-            return `${totalYears} Years`;
         } else {
-            return `${totalYears} Years ${remainingMonths} Months`;
+            let output = '';
+            if (totalYears > 0) {
+                output += `${totalYears} Year${totalYears > 1 ? 's' : ''}`;
+            }
+            if (remainingMonths > 0) {
+                output += `${output.length > 0 ? ' ' : ''}${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
+            }
+            return output;
         }
     }
 
